@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#3a3a3a">
+
+    <Spinner
+        android:id="@+id/brushSizes"
+        android:background="#3a3a3a"
+        android:popupBackground="#3a3a3a"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        </Spinner>
+
+        </LinearLayout>
+
+    <bteamdevelopment.drawapp.DrawView
+        android:id="@+id/DrawViewCanvas"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="#FFFFFFFF" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:focusableInTouchMode="false"
+        android:background="#000000">
+
+        <ImageButton
+            android:id="@+id/btn_new"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#000000"
+            android:src="@drawable/btn_new" />
+
+        <ImageButton
+            android:id="@+id/change_color"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#000000"
+            android:src="@drawable/palette" />
+
+        <ImageButton
+            android:id="@+id/change_background"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#000000"
+            android:src="@drawable/background" />
+
+        <ImageButton
+            android:id="@+id/btn_erase"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:focusableInTouchMode="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#000000"
+            android:src="@drawable/eraser" />
+
+        <ImageButton
+            android:id="@+id/btn_open"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#000000"
+            android:src="@drawable/btn_open" />
+
+        <ImageButton
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#000000"
+            android:src="@drawable/btn_save" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

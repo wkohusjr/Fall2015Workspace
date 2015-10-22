@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:padding="3dip"
+    >
+<ImageView
+    android:id="@+id/xSmallBrush"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_gravity="center_vertical"
+    android:src="@drawable/xsmall_circle"/>
+
+    <ImageView
+        android:id="@+id/smallBrush"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/small_circle"/>
+
+    <ImageView
+        android:id="@+id/mediumBrush"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/medium_circle"/>
+
+    <ImageView
+        android:id="@+id/largeBrush"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/large_circle"/>
+
+    <ImageView
+        android:id="@+id/xLargeBrush"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/xlarge_circle"/>
+
+
+    <TextView
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/setBrush"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">drawApp</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="brushSizes">
+        <item>@drawable/xsmall_circle</item>
+        <item>@drawable/small_circle</item>
+        <item>@drawable/medium_circle</item>
+        <item>@drawable/large_circle</item>
+        <item>@drawable/xlarge_circle</item>
+    </string-array>
+</resources>

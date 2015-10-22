@@ -1,0 +1,10 @@
+Run App
+Click Settings - Storage & USB
+Click Internal Storage
+Click Apps
+Click DrawApp
+Click the "i"
+Click Permissions
+Enable Storage
+
+Close App - Re-Open

@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:layout_margin="2dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:id="@+id/giraffe"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:background="#000000"
+            android:src="@drawable/giraffethumb"/>
+
+        <ImageButton
+            android:id="@+id/bird"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:background="#000000"
+            android:src="@drawable/birdthumb"/>
+
+        <ImageButton
+            android:id="@+id/cupcake"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:background="#000000"
+            android:src="@drawable/cupcakethumb"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/dog2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:background="#000000"
+            android:src="@drawable/dog2thumb"/>
+
+        <ImageButton
+            android:id="@+id/dog"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:background="#000000"
+            android:src="@drawable/dogthumb"/>
+
+        <ImageButton
+            android:id="@+id/mush"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:background="#000000"
+            android:src="@drawable/mushthumb"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/rabbit"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:background="#000000"
+            android:src="@drawable/rabbitthumb"/>
+
+        <ImageButton
+            android:id="@+id/star"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:background="#000000"
+            android:src="@drawable/starthumb"/>
+
+        <ImageButton
+            android:id="@+id/unicorn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:background="#000000"
+            android:src="@drawable/unicornthumb"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/cow"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:background="#000000"
+            android:src="@drawable/cowthumb"/>
+
+        <ImageButton
+            android:id="@+id/turkey"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:background="#000000"
+            android:src="@drawable/turkeythumb"/>
+
+        <ImageButton
+            android:id="@+id/blank"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:background="#000000"
+            android:src="@drawable/blankthumb"/>
+
+    </LinearLayout>
+
+</LinearLayout>

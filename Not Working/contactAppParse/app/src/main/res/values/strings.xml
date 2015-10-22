@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">WilliamKohus_Project4</string>
+    <string name="action_settings">Settings</string>
+    <string name="header">dTeam Development Contact List</string>
+    <string name="btn_new">Add New</string>
+    <string name="my_contacts">My Contacts</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="title_activity_create">CreateActivity</string>
+    <string name="geographical">GEOGRAPHICAL INFORMATION</string>
+    <string name="btn_edit">Update</string>
+    <string name="btn_delete">Delete</string>
+
+    // Labels
+    <string name="fName">First Name</string>
+    <string name="lName">Last Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="home">Home</string>
+    <string name="email">Email Address</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="zip">Zip Code</string>
+
+    // Hints
+    <string name="hintFName">Enter First Name</string>
+    <string name="hintLName">Enter Last Name</string>
+    <string name="hintMobile">Enter Mobile Number</string>
+    <string name="hintHome">Enter Home Number</string>
+    <string name="hintEmail">Enter Email Address</string>
+    <string name="hintAddress">Enter Address</string>
+    <string name="hintCity">Enter City</string>
+    <string name="hintState">Enter State</string>
+    <string name="hintZip">Enter Zip Code</string>
+    <string name="title_activity_edit_contact">EditContact</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="title_activity_update">UpdateActivity</string>
+
+</resources>

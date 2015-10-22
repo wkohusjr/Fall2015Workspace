@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/welcome"
+        style="@style/h1"
+        android:singleLine="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome" />
+
+    <Button
+        android:id="@+id/length"
+        style="@style/mainButton"
+        android:text="@string/lengthHeader" />
+
+    <Button
+        android:id="@+id/temp"
+        style="@style/mainButton"
+        android:text="@string/tempHeader" />
+
+    <Button
+        android:id="@+id/time"
+        style="@style/mainButton"
+        android:text="@string/timeHeader" />
+
+    <Button
+        android:id="@+id/volume"
+        style="@style/mainButton"
+        android:text="@string/volumeHeader" />
+
+    <Button
+        android:id="@+id/weight"
+        style="@style/mainButton"
+        android:text="@string/weightHeader" />
+
+</LinearLayout>
